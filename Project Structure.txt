@@ -1,0 +1,28 @@
+lib/
+├── api/
+│   ├── api_client.dart
+│   └── api_exceptions.dart
+├── bloc/
+│   ├── auth/
+│   │   ├── auth_bloc.dart
+│   │   ├── auth_event.dart
+│   │   └── auth_state.dart
+│   └── photos/
+│       ├── photos_bloc.dart
+│       ├── photos_event.dart
+│       └── photos_state.dart
+├── models/
+│   ├── photo.dart
+│   └── user.dart
+├── screens/
+│   ├── home_screen.dart
+│   └── login_screen.dart
+├── utils/
+│   ├── constants.dart
+│   ├── router.dart
+│   └── validators.dart
+├── widgets/
+│   ├── custom_button.dart
+│   ├── custom_textfield.dart
+│   └── photo_item.dart
+└── main.dart
